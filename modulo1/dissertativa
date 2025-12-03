@@ -1,0 +1,11 @@
+#Entrada
+
+O algoritmo deve ler e armazenar o número inteiro n (o multiplicador) fornecido pelo usuário. É fundamental que este número n esteja dentro do intervalo de 1 a 10 para que o truque da tabuada funcione corretamente.
+
+#Processamento
+
+O cálculo começa pela Dezena (D), que é igual a n menos 1. Em seguida, calcula-se a Unidade (U), que é igual a 10 menos n. O Resultado Final (R) é obtido combinando os dígitos, onde R é igual a (D vezes 10) mais U.
+
+#Saída
+
+O algoritmo deve apresentar o valor de R de forma clara ao usuário, indicando a operação realizada: "9 x n = R".
