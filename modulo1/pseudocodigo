@@ -1,19 +1,22 @@
 ALGORITMO Tabuada_do_Nove
 VARIAVEIS
     n : INTEIRO      // Número a ser multiplicado por 9 (o multiplicador)
-    D : INTEIRO      // Dígito da Dezena
-    U : INTEIRO      // Dígito da Unidade
-    R : INTEIRO      // Resultado final
-INICIO
-    // 1. Entrada de Dados
-    ESCREVA("Digite um número inteiro (n) para calcular 9 x n:")
-    LEIA(n)
+    D : INTEIRO      // Dígito da Dezena: n - 1
+    U : INTEIRO      // Dígito da Unidade: 10 - n
+    R : INTEIRO      // Resultado final: (D * 10) + U
 
-    // 2. Processamento
-    D <- n - 1       // Calcula o dígito da dezena: n - 1
-    U <- 10 - n      // Calcula o dígito da unidade: 10 - n
-    R <- (D * 10) + U // Combina os dígitos para obter o resultado final
+1- Início
 
-    // 3. Saída de Dados
-    ESCREVA("O resultado de 9 x ", n, " é: ", R)
-FIM
+// Entrada
+2- ESCREVA("Digite o número (n) para calcular 9 x n:")
+3- LEIA(n)
+
+// Processamento
+4- D <- n - 1      // Calcula o dígito da dezena
+5- U <- 10 - n     // Calcula o dígito da unidade
+6- R <- (D * 10) + U // Combina os dígitos para obter o resultado final
+
+// Saída
+7- ESCREVA("O resultado de 9 x ", n, " é: ", R)
+
+8- Fim
